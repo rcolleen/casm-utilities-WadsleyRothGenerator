@@ -1,0 +1,8 @@
+bin_PROGRAMS += _casmutils-rocksalttoggler
+
+_casmutils_rocksalttoggler_SOURCES =\
+						  plugins/casm-utilities-rocksalttoggler/main.cpp
+
+_casmutils_rocktoggler_LDADD=\
+						libcasmutils.la
+
